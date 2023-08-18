@@ -14,6 +14,7 @@ export default function SearchBar({}: Props) {
             <input
                 type="text"
                 className="w-full h-full px-2 text-white bg-transparent border-0 outline-none"
+                placeholder="Seach..."
             />
             <button className="p-1 border-2 rounded-full bg-amber-400 text-amber-600 border-amber-500">
                 <MagnifyingGlassIcon className="w-6 h-6" />

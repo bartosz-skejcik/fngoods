@@ -24,7 +24,7 @@ export default function Navbar({}: Props) {
             </div>
             <div className="flex gap-4 font-medium">
                 <Link
-                    href="/login"
+                    href="/signup"
                     className="py-1 transition duration-300 border-2 hover:scale-105 rounded-xl px-7 border-amber-500 text-amber-600 bg-amber-400 hover:shadow-lg hover:shadow-amber-400/50"
                 >
                     Sign up

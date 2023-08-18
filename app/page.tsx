@@ -1,21 +1,11 @@
-import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Banner from "@/components/Banner";
 import SearchBar from "@/components/SearchBar";
 
-const poppins = Poppins({
-    weight: ["400", "500", "600", "700", "800"],
-    style: "normal",
-    subsets: ["latin-ext"],
-});
-
 export default function Home() {
     return (
-        <section
-            style={poppins.style}
-            className="flex flex-col items-center justify-start min-h-screen bg-indigo-950"
-        >
+        <section className="flex flex-col items-center justify-start min-h-screen bg-indigo-950">
             <Navbar />
             <div className="relative flex flex-col items-center justify-center gap-28 w-screen h-[80vh]">
                 <Banner />
