@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Login({}: Props) {
     return (
-        <section className="flex flex-col items-center justify-start min-h-screen bg-indigo-950">
+        <section className="flex flex-col items-center justify-start min-h-screen overflow-hidden bg-indigo-950">
             <Navbar />
             <div className="relative flex lg:flex-row flex-col items-center justify-center gap-28 w-screen h-[80vh]">
                 <div className="relative z-20 flex flex-col items-center justify-center w-1/3 gap-5 py-16 border rounded-lg bg-gradient-to-br from-gray-900/90 to-gray-900/10 border-neutral-700">
@@ -61,13 +61,13 @@ export default function Login({}: Props) {
                     <div className="flex items-center justify-center w-2/3 text-lg font-semibold text-white">
                         <Link
                             href="/login"
-                            className="w-1/2 py-4 text-center uppercase transition-shadow bg-gray-900 border border-gray-600 hover:shadow-lg duartion-300 hover:shadow-gray-500"
+                            className="w-1/2 py-4 text-center uppercase transition-shadow bg-yellow-500 border border-yellow-500 hover:shadow-lg duartion-300 hover:shadow-yellow-500"
                         >
                             login
                         </Link>
                         <Link
                             href="/signup"
-                            className="w-1/2 py-4 text-center uppercase transition-shadow bg-yellow-500 border border-yellow-500 hover:shadow-lg duartion-300 hover:shadow-yellow-500"
+                            className="w-1/2 py-4 text-center uppercase transition-shadow bg-gray-900 border border-gray-600 hover:shadow-lg duartion-300 hover:shadow-gray-500"
                         >
                             signup
                         </Link>
