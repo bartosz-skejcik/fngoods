@@ -110,9 +110,9 @@ export default function Navbar({}: Props) {
                 <Bars3Icon className="text-white w-7 h-7" />
             </button>
             <div
-                className="absolute w-screen h-screen bg-indigo-950 z-[999999] inset-0 transition-all duration-300 top-20"
+                className="flex md:hidden flex-col gap-5 items-center justify-center absolute w-screen h-screen bg-indigo-950 z-[999999] inset-0 transition-all duration-300 top-20"
                 // if isOpen then add style translatex(100%) else dont add the style
-                style={{ transform: isOpen ? "translateX(100%)" : "" }}
+                style={{ transform: isOpen ? "" : "translateX(100%)" }}
             >
                 asd
             </div>
